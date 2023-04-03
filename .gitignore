@@ -1,0 +1,6 @@
+venv
+mapping.ipynb
+data
+.ipynb_checkpoints
+__pycache__
+.vscode

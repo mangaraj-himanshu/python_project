@@ -1,0 +1,34 @@
+{
+    "server": {
+        "host": "0.0.0.0",
+        "port": 8000,
+        "reload": false
+    },
+    "jwt": {
+        "key": "qJB0rGtIn5UB1xG03efyCp",
+        "algorithms": [
+            "HS256"
+        ]
+    },
+    "SQL": {
+        "host": "host.docker.internal",
+        "port": 3306,
+        "user": "root",
+        "password": "rishabh",
+        "database": "ementor",
+        "mentees-table-name": "t_mentees",
+        "mentees-program-table-name": "t_mentees_program",
+        "mentors-table-name": "t_mentors",
+        "mentors-program-table-name": "t_mentors_program",
+        "authentication-view-name": "v_login"
+    },
+    "mentor_text_columns": [
+        "mentor_biography",
+        "mentor_introduction"
+    ],
+    "mentee_text_columns": [
+        "mentee_career_objectives",
+        "mentee_introduction"
+    ],
+    "zero_mentee": false
+}

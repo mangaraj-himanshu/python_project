@@ -1,0 +1,9 @@
+
+FOR NORMAL PYTHON INSTALLATION
+pip install --quiet --no-cache-dir -r requirements.txt
+python app.py
+
+
+FOR DOCKER
+docker build -t "recommend" .
+docker run -p 8000:8000 -it recommend
